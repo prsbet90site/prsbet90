@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!-- Copied from https://sibbet.co/image/aHR0cDovL2NsMjNmaWxlcy5zMy5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbS9iYW5uZXJzLzIwMjMwMS8xNjczMTIwMjI1LTYxMDEtNjQyMS5wbmdAOTA0OTAxOGYzNWY1OTMyYTE0Y2Y1OTQ4MjcwOTFmMWQ%3D by Cyotek WebCopy 1.7.0.600, Tuesday, February 6, 2024, 8:57:23 PM -->
+<head>
+	<title>Ooops...</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src='https://www.google.com/recaptcha/api.js?hl=en'></script>
+	<script>
+		var imNotARobot = function(g) {
+			document.getElementById("main").innerHTML = "<p>please wait...</p>";
+			var xhttp = new XMLHttpRequest();
+			xhttp.onreadystatechange = function() {
+				if(this.readyState == 4) {
+					setTimeout(function() {
+						location.reload();	
+					}, 2500);
+			  	}
+			};
+			xhttp.open('GET', '/captcha.html?g=' + encodeURIComponent(g), true);
+			xhttp.send();			
+		};
+	</script>	
+</head>
+<body style="background: #eee; font-family: Arial;">
+	<div id="main" align="center" style="border: 1px dashed #383838; background: #fff; border-radius: 4px; padding: 20px 25px; padding-bottom: 30px; position: fixed; left: 50%; top: 50%; transform: translate(-50%,-50%);">
+		<p>Please solve the captcha to continue...</p>
+		<div class="g-recaptcha" data-sitekey="6LeEtVgUAAAAAOS9Yyv4VK2JC_aI-tiP806LowS5" data-callback="imNotARobot"></div>
+	</div>
+</body>
+<!-- Copied from https://sibbet.co/image/aHR0cDovL2NsMjNmaWxlcy5zMy5ldS1jZW50cmFsLTEuYW1hem9uYXdzLmNvbS9iYW5uZXJzLzIwMjMwMS8xNjczMTIwMjI1LTYxMDEtNjQyMS5wbmdAOTA0OTAxOGYzNWY1OTMyYTE0Y2Y1OTQ4MjcwOTFmMWQ%3D by Cyotek WebCopy 1.7.0.600, Tuesday, February 6, 2024, 8:57:23 PM -->
+</html>
