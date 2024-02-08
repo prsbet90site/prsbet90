@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Dubai';
+  src: url('Dubai/Dubai-Bold.eot?#iefix') format('embedded-opentype'), url('Dubai/Dubai-Bold.woff') format('woff'), url('Dubai/Dubai-Bold.ttf') format('truetype'), url('Dubai/Dubai-Bold.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Dubai';
+  src: url('Dubai/Dubai-Medium.eot') format('embedded-opentype'), url('Dubai/Dubai-Medium.woff') format('woff'), url('Dubai/Dubai-Medium.ttf') format('truetype'), url('Dubai/Dubai-Medium.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Dubai';
+  src: url('Dubai/Dubai-Regular.eot') format('embedded-opentype'), url('Dubai/Dubai-Regular.woff') format('woff'), url('Dubai/Dubai-Regular.ttf') format('truetype'), url('Dubai/Dubai-Regular.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+/*
+@font-face {
+  font-family: 'Dubai-Light';
+  src: url('Dubai/Dubai-Light.eot?#iefix') format('embedded-opentype'), url('Dubai/Dubai-Light.woff') format('woff'), url('Dubai/Dubai-Light.ttf') format('truetype'), url('Dubai/Dubai-Light.woff2#Dubai-Light') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+*/
